@@ -32,7 +32,6 @@ database.ref().on("value", function(snapshot) {
       // Set the variables for highBidder/highPrice equal to the stored values.
     highBidder = snapshot.val().highBidder;
     highPrice = parseInt(snapshot.val().highPrice);
-    alert("yaas")
   }
 
   // If Firebase does not have highPrice and highBidder values stored, they remain the same as the
